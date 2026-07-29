@@ -73,27 +73,58 @@ class SianAutomator:
     def _count_existing_preguntas(self, driver):
         try:
             hd = driver.find_element(By.ID, "hdSeccionPregunta")
-            return int(hd.get_attribute("value"))
+            count = int(hd.get_attribute("value"))
         except:
-            return len(driver.find_elements(By.XPATH, "//div[starts-with(@id, 'seccion_')]"))
+            count = len(driver.find_elements(By.XPATH, "//div[starts-with(@id, 'seccion_')]"))
+        if count == 0:
+            return 0
+        titulos_existentes = set()
+        for i in range(count):
+            for id_intentar in [f"txtOpcionPregunta{i}", f"txtTexto{i}", f"txtRecurso{i}", f"txtSeccion{i}", f"txtRecursoTitulo{i}"]:
+                try:
+                    el = driver.find_element(By.ID, id_intentar)
+                    val = el.get_attribute("value").strip()
+                    if val:
+                        titulos_existentes.add(val)
+                    break
+                except:
+                    continue
+        if titulos_existentes:
+            faltantes = sum(1 for p in preguntas if p["titulo"] not in titulos_existentes)
+            return len(preguntas) - faltantes
+        return count
 
     def _get_existing_formato_contenidos(self, driver):
         try:
             driver.find_element(By.ID, "selFila")
-            table = driver.find_element(By.XPATH, "//table[contains(@class, 'table') or contains(@id, 'tabla')]")
+            selectores = [
+                "//table[@id='tblContenido']",
+                "//table[contains(@id, 'gv')][contains(@id, 'Contenido')]",
+                "//table[contains(@class, 'table')][.//th[contains(., 'Contenido')]]",
+                "//div[contains(@class, 'table-responsive')]//table",
+            ]
+            table = None
+            for sel in selectores:
+                try:
+                    table = driver.find_element(By.XPATH, sel)
+                    break
+                except:
+                    continue
+            if table is None:
+                return None
             rows = table.find_elements(By.XPATH, ".//tr")
             existentes = set()
             for row in rows[1:]:
                 cells = row.find_elements(By.TAG_NAME, "td")
-                for cell in cells:
-                    texto = cell.text.strip()
-                    if texto and len(texto) > 3:
-                        existentes.add(texto)
+                texto = cells[3].text.strip() if len(cells) >= 4 else (cells[-1].text.strip() if cells else "")
+                if texto and len(texto) > 3:
+                    existentes.add(texto)
             return existentes
         except:
             return None
 
     def _automate(self):
+        driver = None
         try:
             base = self.entries["URL Base:"].get().strip().rstrip("/")
             url_login = base + "/logins.aspx"
@@ -141,7 +172,7 @@ class SianAutomator:
                 self._crear_nuevo_formulario(driver, wait, base, titulo, fecha_fin, orden)
 
                 self.log("Abriendo Configurar preguntas...")
-                wait.until(EC.element_to_be_clickable((By.XPATH, "//a[i/@title='Configurar preguntas']"))).click()
+                wait.until(EC.element_to_be_clickable((By.XPATH, "//a[i[@title='Configurar preguntas']]"))).click()
                 time.sleep(2)
                 if len(driver.window_handles) > 1:
                     driver.switch_to.window(driver.window_handles[-1])
@@ -160,6 +191,11 @@ class SianAutomator:
             messagebox.showerror("Error", str(e))
         finally:
             self.btn_run.config(state=tk.NORMAL)
+            if driver:
+                try:
+                    driver.quit()
+                except:
+                    pass
 
     def _crear_nuevo_formulario(self, driver, wait, base, titulo, fecha_fin, orden):
         self.log("Abriendo Nuevo Formulario...")
@@ -206,15 +242,8 @@ class SianAutomator:
 
         agregadas = 0
         for i, f in enumerate(formato):
-            if existentes:
-                contenido_lower = f["contenido"].lower().strip()
-                coincide = False
-                for existente in existentes:
-                    if contenido_lower in existente.lower() or existente.lower() in contenido_lower:
-                        coincide = True
-                        break
-                if coincide:
-                    continue
+            if existentes and f["contenido"].strip() in existentes:
+                continue
 
             self.log(f"Formato {i + 1}/{len(formato)}: {f['contenido'][:40]}...")
 
@@ -236,12 +265,11 @@ class SianAutomator:
                     )
                 else:
                     s = Select(driver.find_element(By.ID, "selPreguntas"))
-                    try:
-                        s.select_by_visible_text(f["contenido"])
-                    except Exception as e:
-                        opts = [o.text for o in s.options]
-                        self.log(f"Error seleccionando '{f['contenido']}' - puede ya existir")
+                    opciones_disponibles = [o.text.strip() for o in s.options if o.text.strip()]
+                    if f["contenido"] not in opciones_disponibles:
+                        self.log(f"  '{f['contenido'][:40]}' ya existe en el formato, saltando...")
                         continue
+                    s.select_by_visible_text(f["contenido"])
 
                 btn_agregar = driver.find_element(By.ID, "btnAgregarPregunta")
                 if btn_agregar.is_enabled():
@@ -349,9 +377,13 @@ class SianAutomator:
 
         if section > existing:
             self.log("Guardando preguntas nuevas...")
-            driver.execute_script("guardarSecciones()")
-            time.sleep(0.5)
-            self.log(f"{section - existing} preguntas creadas y guardadas")
+            try:
+                driver.execute_script("guardarSecciones()")
+                time.sleep(0.5)
+            except Exception as e:
+                self.log(f"Error al guardar preguntas: {str(e)[:50]}")
+                messagebox.showwarning("Guardado", f"Error al guardar preguntas: {str(e)[:50]}")
+            self.log(f"{section - existing} preguntas creadas")
         else:
             self.log("No se crearon preguntas nuevas")
 
