@@ -1,0 +1,457 @@
+============================================================
+EXTRACCION DE PREGUNTAS - 29/07/2026 09:19:49
+============================================================
+URL: https://cloud.sian365.co/lahacienda/for2pregunta.aspx?tk=Y2Y9MyZ0Zj1uJndzPQ==
+Titulo: Preguntas - SIAN365
+
+[HTML guardado en: .\page_source_20260729_091949.html]
+
+Se encontraron 76 preguntas:
+
+--- Pregunta 1 ---
+  col_1: Utiliza estos navegadores.
+  col_2: 
+
+--- Pregunta 2 ---
+  texto: Minimizar
+
+
+
+Respuesta larga Obligatoria
+  opciones: Texto: Nombre de la IED:; [ ] Respuesta larga; [X] Obligatoria
+
+--- Pregunta 3 ---
+  texto: Minimizar
+
+--- Pregunta 4 ---
+  texto: Minimizar
+
+
+
+Respuesta larga Obligatoria
+  opciones: Texto: Nombre del Estudiante:; [ ] Respuesta larga; [X] Obligatoria
+
+--- Pregunta 5 ---
+  texto: Minimizar
+
+--- Pregunta 6 ---
+  texto: Minimizar
+
+
+
+Respuesta larga Obligatoria
+  opciones: Texto: Grado a matrícular:; [ ] Respuesta larga; [X] Obligatoria
+
+--- Pregunta 7 ---
+  texto: Minimizar
+
+--- Pregunta 8 ---
+  texto: Minimizar
+
+
+
+Respuesta larga Obligatoria
+  opciones: Texto: Número de Identificación; [ ] Respuesta larga; [X] Obligatoria
+
+--- Pregunta 9 ---
+  texto: Minimizar
+
+--- Pregunta 10 ---
+  texto: Minimizar
+
+
+
+Agregar la opción Agregar la opción "Otras"
+Varias respuestas Obligatoria
+  opciones: Texto: ¿El estudiante vive solo?; Texto: SI; Texto: NO; [ ] Varias respuestas; [X] Obligatoria
+
+--- Pregunta 11 ---
+  texto: Minimizar
+
+--- Pregunta 12 ---
+  texto: Minimizar
+
+
+
+Agregar la opción Agregar la opción "Otras"
+Varias respuestas Obligatoria
+  opciones: Texto: ¿Embarazo adolescente?; Texto: SI; Texto: NO; [ ] Varias respuestas; [X] Obligatoria
+
+--- Pregunta 13 ---
+  texto: Minimizar
+
+--- Pregunta 14 ---
+  texto: Minimizar
+
+
+
+Agregar la opción Agregar la opción "Otras"
+Varias respuestas Obligatoria
+  opciones: Texto: ¿Realiza algún tipo de trabajo remunerado o no remunerado?; Texto: SI; Texto: NO; [ ] Varias respuestas; [X] Obligatoria
+
+--- Pregunta 15 ---
+  texto: Minimizar
+
+--- Pregunta 16 ---
+  texto: Minimizar
+
+
+
+Agregar la opción Agregar la opción "Otras"
+Varias respuestas Obligatoria
+  opciones: Texto: ¿Maternidad o paternidad a temprana edad?; Texto: SI; Texto: NO; [ ] Varias respuestas; [X] Obligatoria
+
+--- Pregunta 17 ---
+  texto: Minimizar
+
+--- Pregunta 18 ---
+  texto: Minimizar
+
+
+
+Agregar la opción Agregar la opción "Otras"
+Varias respuestas Obligatoria
+  opciones: Texto: ¿Refiere que ha sido víctima de discriminación, agresiones físicas o agresiones verbales en razón a sus expresiones de género, su orientación o identidad sexual?(población lgbti); Texto: SI; Texto: NO; Texto: NO APLICA; [ ] Varias respuestas; [X] Obligatoria
+
+--- Pregunta 19 ---
+  texto: Minimizar
+
+--- Pregunta 20 ---
+  texto: Minimizar
+
+
+
+Agregar la opción Agregar la opción "Otras"
+Varias respuestas Obligatoria
+  opciones: Texto: ¿Refiere que ha sido víctima de agresiones físicas, verbales o sexuales por parte de alguien de su entorno educativo o familiar?; Texto: SI; Texto: NO; [ ] Varias respuestas; [X] Obligatoria
+
+--- Pregunta 21 ---
+  texto: Minimizar
+
+--- Pregunta 22 ---
+  texto: Minimizar
+
+
+
+Agregar la opción
+Varias respuestas Obligatoria
+  opciones: Texto: ¿Refiere que ha sido víctima de discriminación en razón a: ; Texto: Discapacidad; Texto: Su ritmo de aprendizaje; Texto: Apariencia física; Texto: Religión; Texto: Pertenencia étnica; Texto: Características Familiares; Texto: Otras; [X] Varias respuestas; [X] Obligatoria
+
+--- Pregunta 23 ---
+  texto: Minimizar
+
+--- Pregunta 24 ---
+  texto: Minimizar
+
+
+
+Respuesta larga Obligatoria
+  opciones: Texto: ¿Qué desea estudiar?; [ ] Respuesta larga; [X] Obligatoria
+
+--- Pregunta 25 ---
+  texto: Minimizar
+
+--- Pregunta 26 ---
+  texto: Minimizar
+
+
+
+Solo se permitirán números enteros
+Respuesta larga Obligatoria
+  opciones: Texto: Número de personas que viven en el hogar:; [ ] Respuesta larga; [X] Obligatoria
+
+--- Pregunta 27 ---
+  texto: Minimizar
+
+--- Pregunta 28 ---
+  texto: Minimizar
+
+
+
+Agregar la opción Agregar la opción "Otras"
+Varias respuestas Obligatoria
+  opciones: Texto: Tipo de vivienda:; Texto: CASA; Texto: APARTAMENTO; Texto: CUARTOS; Texto: OTROS(CARPAS, ALBERGUES, ETC); [ ] Varias respuestas; [X] Obligatoria
+
+--- Pregunta 29 ---
+  texto: Minimizar
+
+--- Pregunta 30 ---
+  texto: Minimizar
+
+
+
+Agregar la opción Agregar la opción "Otras"
+Varias respuestas Obligatoria
+  opciones: Texto: Tenencia de la vivienda:; Texto: PROPIA; Texto: ARRIENDO; Texto: PROPIA CON CRÉDITO; Texto: USUFRUCTO; [ ] Varias respuestas; [X] Obligatoria
+
+--- Pregunta 31 ---
+  texto: Minimizar
+
+--- Pregunta 32 ---
+  texto: Minimizar
+
+
+
+Agregar la opción Agregar la opción "Otras"
+Varias respuestas Obligatoria
+  opciones: Texto: ¿Servicios que tiene la vivienda? (Puede seleccionar varias opciones); Texto: AGUA; Texto: ALCANTARILLADO; Texto: GAS; Texto: TELÉFONO; Texto: INTERNET; Texto: ENERGÍA; Texto: RECOLECCIÓN DE BASURAS; Texto: ENERGÍA ALTERNATIVA RENOVABLE; [X] Varias respuestas; [X] Obligatoria
+
+--- Pregunta 33 ---
+  texto: Minimizar
+
+--- Pregunta 34 ---
+  texto: Minimizar
+
+
+
+Agregar la opción Agregar la opción "Otras"
+Varias respuestas Obligatoria
+  opciones: Texto: ¿Tuvo educación preescolar?; Texto: SI; Texto: NO; [ ] Varias respuestas; [X] Obligatoria
+
+--- Pregunta 35 ---
+  texto: Minimizar
+
+--- Pregunta 36 ---
+  texto: Minimizar
+
+
+
+Agregar la opción Agregar la opción "Otras"
+Varias respuestas Obligatoria
+  opciones: Texto: ¿Qué grados de preescolar cursó? (Marque todos los que cursó); Texto: PREJARDÍN; Texto: JARDÍN; Texto: TRANSICIÓN; [X] Varias respuestas; [X] Obligatoria
+
+--- Pregunta 37 ---
+  texto: Minimizar
+
+--- Pregunta 38 ---
+  texto: Minimizar
+
+
+
+Agregar la opción Agregar la opción "Otras"
+Varias respuestas Obligatoria
+  opciones: Texto: ¿Alguna vez se ha retirado del establecimiento educativo sin terminar el año?; Texto: SI; Texto: NO; [ ] Varias respuestas; [X] Obligatoria
+
+--- Pregunta 39 ---
+  texto: Minimizar
+
+--- Pregunta 40 ---
+  texto: Minimizar
+
+
+
+Solo se permitirán números enteros
+Respuesta larga Obligatoria
+  opciones: Texto: ¿Cuánto tiempo, en meses, estuvo por fuera del sistema educativo?  ; [ ] Respuesta larga; [X] Obligatoria
+
+--- Pregunta 41 ---
+  texto: Minimizar
+
+--- Pregunta 42 ---
+  texto: Minimizar
+
+
+
+Solo se permitirán números enteros
+Respuesta larga Obligatoria
+  opciones: Texto: ¿Cuántas veces ha dejado el colegio este año?; [ ] Respuesta larga; [X] Obligatoria
+
+--- Pregunta 43 ---
+  texto: Minimizar
+
+--- Pregunta 44 ---
+  texto: Minimizar
+
+
+
+Agregar la opción Agregar la opción "Otras"
+Varias respuestas Obligatoria
+  opciones: Texto: Ha repetido años?; Texto: SI; Texto: NO; [ ] Varias respuestas; [X] Obligatoria
+
+--- Pregunta 45 ---
+  texto: Minimizar
+
+--- Pregunta 46 ---
+  texto: Minimizar
+
+
+
+Solo se permitirán números enteros
+Respuesta larga Obligatoria
+  opciones: Texto: ¿Cuántas veces ha repetido años?; [ ] Respuesta larga; [X] Obligatoria
+
+--- Pregunta 47 ---
+  texto: Minimizar
+
+--- Pregunta 48 ---
+  texto: Minimizar
+
+
+
+Agregar la opción Agregar la opción "Otras"
+Varias respuestas Obligatoria
+  opciones: Texto: ¿Está repitiendo el grado actual?; Texto: SI; Texto: NO; [ ] Varias respuestas; [X] Obligatoria
+
+--- Pregunta 49 ---
+  texto: Minimizar
+
+--- Pregunta 50 ---
+  texto: Minimizar
+
+
+
+Agregar la opción Agregar la opción "Otras"
+Varias respuestas Obligatoria
+  opciones: Texto: Antecedentes disciplinarios de la vida académica:; Texto: Llamados de atención; Texto: Suspensión; Texto: Llamados de atención Y Suspensión; Texto: No Aplica; [ ] Varias respuestas; [X] Obligatoria
+
+--- Pregunta 51 ---
+  texto: Minimizar
+
+--- Pregunta 52 ---
+  texto: Minimizar
+
+
+
+Agregar la opción Agregar la opción "Otras"
+Varias respuestas Obligatoria
+  opciones: Texto: Asistencia promedio del año anterior:; Texto: ALTA (80% O MAS); Texto: MEDIA(ENTRE 50% Y 80%; Texto: BAJA(MENOR AL 50%); Texto: NO APLICA; [ ] Varias respuestas; [X] Obligatoria
+
+--- Pregunta 53 ---
+  texto: Minimizar
+
+--- Pregunta 54 ---
+  texto: Minimizar
+
+
+
+Agregar la opción Agregar la opción "Otras"
+Varias respuestas Obligatoria
+  opciones: Texto: ¿Presenta alteraciones en el desarrollo o dificultades de aprendizaje diagnosticadas por un especialista?     ; Texto: SI; Texto: NO; [ ] Varias respuestas; [X] Obligatoria
+
+--- Pregunta 55 ---
+  texto: Minimizar
+
+--- Pregunta 56 ---
+  texto: Minimizar
+
+
+
+Agregar la opción Agregar la opción "Otras"
+Varias respuestas Obligatoria
+  opciones: Texto: ¿Estuvo vinculado a una modalidad de educación inicial antes de ingresar a preescolar?; Texto: SI; Texto: NO; [ ] Varias respuestas; [X] Obligatoria
+
+--- Pregunta 57 ---
+  texto: Minimizar
+
+--- Pregunta 58 ---
+  texto: Minimizar
+
+
+
+Agregar la opción Agregar la opción "Otras"
+Varias respuestas Obligatoria
+  opciones: Texto: Estrategias que debería tener el estudiante (Seleccione máximo 2); Texto: SUBSIDIOS CONDICIONADOS A LA ASISTENCIA ESCOLAR; Texto: UTILES ESCOLARES; Texto: JORNADA ESCOLAR COMPLEMENTARIA; Texto: ATENCIÓN INTEGRAL; Texto: VESTUARIO ESCOLAR; Texto: TRANSPORTE ESCOLAR; Texto: PAE EMERGENCIA; [X] Varias respuestas; [X] Obligatoria
+
+--- Pregunta 59 ---
+  texto: Minimizar
+
+--- Pregunta 60 ---
+  texto: RECURSO
+INFORMACIÓN COMPLEMENTARIA(Acudiente)
+
+--- Pregunta 61 ---
+  texto: Minimizar
+
+
+
+Respuesta larga Obligatoria
+  opciones: Texto: Tipo de documento:; [ ] Respuesta larga; [X] Obligatoria
+
+--- Pregunta 62 ---
+  texto: Minimizar
+
+--- Pregunta 63 ---
+  texto: Minimizar
+
+
+
+Respuesta larga Obligatoria
+  opciones: Texto: Número documento:; [ ] Respuesta larga; [X] Obligatoria
+
+--- Pregunta 64 ---
+  texto: Minimizar
+
+--- Pregunta 65 ---
+  texto: Minimizar
+
+
+
+Respuesta larga Obligatoria
+  opciones: Texto: Nombres y Apellidos:; [ ] Respuesta larga; [X] Obligatoria
+
+--- Pregunta 66 ---
+  texto: Minimizar
+
+--- Pregunta 67 ---
+  texto: Minimizar
+
+
+
+Agregar la opción Agregar la opción "Otras"
+Varias respuestas Obligatoria
+  opciones: Texto: Nivel Educativo:; Texto: Sin Educación; Texto: Primaria incompleta; Texto: Primaria completa; Texto: Media Incompleta; Texto: Media completa; Texto: Superior Incompleta; Texto: Superior Completa; Texto: Posgrado; [ ] Varias respuestas; [X] Obligatoria
+
+--- Pregunta 68 ---
+  texto: Minimizar
+
+--- Pregunta 69 ---
+  texto: Minimizar
+
+
+
+Agregar la opción Agregar la opción "Otras"
+Varias respuestas Obligatoria
+  opciones: Texto: Asiste a reuniones distintas a las de la entrega de boletines:; Texto: Siempre; Texto: Casi Siempre; Texto: Algunas veces; Texto: Casi nunca; Texto: Nunca; [ ] Varias respuestas; [X] Obligatoria
+
+--- Pregunta 70 ---
+  texto: Minimizar
+
+--- Pregunta 71 ---
+  texto: Minimizar
+
+
+
+Agregar la opción Agregar la opción "Otras"
+Varias respuestas Obligatoria
+  opciones: Texto: Asiste a entrega de informes académicos:; Texto: Siempre; Texto: Casi Siempre; Texto: Algunas veces; Texto: Casi nunca; Texto: Nunca; [ ] Varias respuestas; [X] Obligatoria
+
+--- Pregunta 72 ---
+  texto: Minimizar
+
+--- Pregunta 73 ---
+  texto: Minimizar
+
+
+
+Agregar la opción Agregar la opción "Otras"
+Varias respuestas Obligatoria
+  opciones: Texto: Tipo de Empleo:; Texto: Temporal; Texto: Permanente; Texto: No tiene; [ ] Varias respuestas; [X] Obligatoria
+
+--- Pregunta 74 ---
+  texto: Minimizar
+
+--- Pregunta 75 ---
+  texto: Minimizar
+
+
+
+Agregar la opción Agregar la opción "Otras"
+Varias respuestas Obligatoria
+  opciones: Texto: Frecuencia con la que ha cambiado de domicilio en el último año:; Texto: No ha cambiado; Texto: Entre 1 y 2 veces; Texto: Entre 3 y 4 veces; Texto: Más de 4 veces; [ ] Varias respuestas; [X] Obligatoria
+
+--- Pregunta 76 ---
+  texto: Minimizar
+
+============================================================
+FIN DEL REPORTE
+============================================================
